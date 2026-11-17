@@ -1,21 +1,13 @@
 {
-  "number": 24,
   "name": "Vvveb CMS",
   "source": "https://www.vvveb.com",
-  "docker_hub": "drupal/cms",
-  "tag": "byte",
+  "docker_image": "drupal/cms:byte",
+  "version": "byte",
   "repository": "https://github.com/waskevin/tnas-app-vvveb-cms",
-  "dual_arch": true,
   "architectures": [
-    "amd64",
-    "arm64"
+    "linux/amd64",
+    "linux/arm64"
   ],
-  "screenshot_path": "precheck-screenshots/vvvebcms/x86_64/run.png",
-  "screenshot_status": "captured",
-  "developer_name": "管浩良",
-  "developer_email": "k.kuan@qq.com",
-  "submission_status": "not_submitted",
-  "scheduled_publish": "20:00",
-  "runtime_status": "http_ok",
-  "runtime_note": ""
+  "description": "Vvveb CMS container application prepared for TerraMaster TOS",
+  "submission_status": "not_submitted"
 }
